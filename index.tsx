@@ -337,7 +337,9 @@ export class GdmLiveAudio extends LitElement {
 
   private async initClient() {
     this.nextStartTime = this.outputAudioContext.currentTime;
-    this.client = new GoogleGenAI({apiKey: process.env.API_KEY});
+    // ⚠️ IMPORTANT: Replace 'VOTRE_CLE_API_ICI' with your actual Gemini API key.
+    // ⚠️ Get your key from Google AI Studio: https://aistudio.google.com/app/apikey
+    this.client = new GoogleGenAI({apiKey: 'VOTRE_CLE_API_ICI'});
 
     this.outputDestinationNode =
       this.outputAudioContext.createMediaStreamDestination();
