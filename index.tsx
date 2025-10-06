@@ -871,7 +871,6 @@ export class GdmLiveAudio extends LitElement {
               id="exportButton"
               @click=${this.exportConversation}
               title="Export Conversation"
-              aria-label="Export Conversation"
             >
               <svg
                 height="24px"
@@ -889,9 +888,6 @@ export class GdmLiveAudio extends LitElement {
               @click=${this.toggleConversation}
               ?disabled=${this.sessionState !== 'connected'}
               title=${this.isConversing
-                ? 'Stop Conversation'
-                : 'Start Conversation'}
-              aria-label=${this.isConversing
                 ? 'Stop Conversation'
                 : 'Start Conversation'}
             >
@@ -921,9 +917,6 @@ export class GdmLiveAudio extends LitElement {
               title=${this.isRecording
                 ? 'Stop Recording Session'
                 : 'Record Entire Session (Screen Capture)'}
-              aria-label=${this.isRecording
-                ? 'Stop Recording Session'
-                : 'Record Entire Session (Screen Capture)'}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -942,9 +935,6 @@ export class GdmLiveAudio extends LitElement {
               class=${this.isCameraOn ? 'active' : ''}
               @click=${this.toggleCamera}
               title=${this.isCameraOn ? 'Turn Camera Off' : 'Turn Camera On'}
-              aria-label=${this.isCameraOn
-                ? 'Turn Camera Off'
-                : 'Turn Camera On'}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

@@ -6,7 +6,7 @@
 
 This contains everything you need to run your app locally.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1McK82jbgE-XC16HMngFSaPw2abfqF8zr
+View your app in AI Studio: https://ai.studio/apps/bundled/live_audio
 
 ## Run Locally
 

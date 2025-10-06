@@ -1,5 +1,5 @@
 {
-  "name": "Copy of Live Audio",
+  "name": "Live Audio",
   "description": "Experience real-time voice chat with 3D visuals react to your conversation, bringing AI interaction to life.",
   "requestFramePermissions": [
     "microphone",
